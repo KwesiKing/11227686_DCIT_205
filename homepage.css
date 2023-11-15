@@ -1,0 +1,20 @@
+.fixed_header{
+display: flex;
+}
+
+.flex_header{
+  display: flex;
+}
+
+.header{
+  flex:1;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  display: flex;
+}
+
+.logo{
+  flex: 1;
+  display: flex;
+}
