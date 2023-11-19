@@ -1,0 +1,161 @@
+.header{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  z-index: 1000;
+
+}
+
+.left-section{
+background-color: lightblue;
+width: 700px;
+display: flex;
+flex-direction: row;
+
+}
+
+.right-section{
+
+flex: 1;
+margin-left: 100px;
+align-items: center;
+display: flex;
+
+}
+
+
+.left-logo{
+  width: 85px;
+  background-color: lightgreen;
+}
+
+.compssa{
+  width: 50px;
+  padding: 10px;
+}
+.right-logo{
+  width: 85px;
+  background-color: yellow;
+}
+
+.ug{
+  width: 380px;
+  padding-left: 0;
+  padding-top: 3px;
+}
+
+.search-bar{
+  flex: 1;
+  height: 34px;
+  font-size: 16px;
+  border-width: 2px;
+  border-style: solid;
+  border-color:rgb(78, 77, 77);
+  border-radius: 7px;
+  margin-right: -10px;
+  box-shadow: inset 1px 2px 3px 
+  rgba(116, 116, 116, 0.05)
+  
+}
+.search::placeholder{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.search-button{
+  height: 40px;
+  width: 60px;
+  border-width: 2px;
+  margin-left: -4px;
+  border-style: solid;
+  border-color: rgb(78, 77, 77);
+  border-radius: 7px;
+  cursor: pointer;
+  
+}
+
+
+.search-image{
+  width: 35px;
+}
+
+.heading{
+  display: flex;
+
+}
+
+.top-nav{
+  flex: 1;
+  border: solid;
+  height: 30px;
+  display: flex;
+}
+
+.dropbtn {
+  background-color: #3e04aa;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  height: 40px;
+  flex: 1;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e6d8e;
+}
+
+.search-button .tooltip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+  font-size: 12px;
+  opacity: 0;
+  transition: 0.15s;
+  
+}
+
+.search-button:hover .tooltip{
+  opacity: 1;
+}
+@media screen and (max-width: 695px){
+  .right-section{
+    display: none;
+  }
+  }

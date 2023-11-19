@@ -1,0 +1,62 @@
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+footer{
+  z-index: 1;
+  margin-top: 80px;
+}
+.foot-p{
+margin-top: 0;
+margin-bottom: 4px;
+}
+
+.foot-header{
+font-size: 15px;
+margin-top: 0;
+margin-bottom: 2px;
+}
+.foot-p2{
+margin-top: 0;
+margin-bottom: 4px;
+cursor: pointer;
+
+}
+.foot-p2:hover{
+transition: 10px;
+color: yellow;
+}
