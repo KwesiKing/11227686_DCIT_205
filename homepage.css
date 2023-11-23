@@ -1,3 +1,6 @@
+*{
+  font-family: sans-serif;
+}
 body{
   margin: 0;
 }
@@ -5,7 +8,12 @@ body{
 div{
   font-size: 20px;
 }
+.dropbtn:hover{
+  font-size: 34px;
+  transition: 0.5s;
+  
 
+}
 
 .header{
   height: 70px;
@@ -18,7 +26,6 @@ div{
 }
 
 .left-section{
-background-color: lightblue;
 width: 700px;
 display: flex;
 flex-direction: row;
@@ -37,7 +44,6 @@ display: flex;
 
 .left-logo{
   width: 85px;
-  background-color: lightgreen;
 }
 
 .compssa{
@@ -46,7 +52,6 @@ display: flex;
 }
 .right-logo{
   width: 85px;
-  background-color: yellow;
 }
 
 .ug{
@@ -97,8 +102,8 @@ display: flex;
 }
 
 .top-nav{
+  font-size: 40px;
   flex: 1;
-  border: solid;
   height: 30px;
   display: flex;
   width: 100%;
@@ -107,15 +112,15 @@ display: flex;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #3e04aa;
+  background-color: #5680e9;
   border-radius: 8px;
 }
 
 .dropbtn {
-  background-color: #3e04aa;
+  background-color: #5680e9;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 25px;
   border: none;
   height: 40px;
   flex: 1;
@@ -145,16 +150,14 @@ display: flex;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #c1c8e4;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #3e6d8e;
-}
+
 
 
 
@@ -210,14 +213,17 @@ margin-right: -10px;
 }
 
 .home-pics{
-  width: 100%; 
-  margin-top: 30px; 
+  width: 93%; 
+  margin-top: 10px; 
   margin-bottom: 40px;
   transition: transform .2s;
+  object-fit:contain ;
+  padding: 35px;
+  margin-left: -20px;
 }
 
 .home-pics:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .boxshadow{

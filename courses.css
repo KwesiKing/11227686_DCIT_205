@@ -1,0 +1,178 @@
+.course-container{
+  display: flex;
+  column-gap:  15px; ;
+}
+.short-course{
+  flex: 1;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  
+}
+.undergraduate{
+flex: 1;
+background-color: lightcoral;
+display: flex;
+flex-direction: column;
+}
+.masters{
+flex: 1;
+background-color: lightblue;
+display: flex;
+flex-direction: column;
+
+}
+.phd{
+  flex: 1;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+}
+
+.image{
+  flex: 1;
+
+}
+.text{
+  flex: 1;
+}
+
+.image-courses{
+  width: 95%; 
+  padding: 7px;
+  
+}
+.top{
+  display: flex;
+  column-gap: 40px;
+  margin-bottom: 30px;
+}
+
+.top-left{
+  flex: 1;
+}
+
+.top-right{
+  flex: 1;
+}
+.short-courses-box{
+  display: flex;
+  column-gap: 10px;
+  margin-top: 50px;
+  border-top: 2px solid rgb(159, 155, 180);
+}
+.short-courses-box-content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.short-courses-box-content-img{
+flex: 1;
+}
+.short-courses-box-content-txt{
+flex: 1;
+}
+.back-pic{
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  filter: grayscale(40%);
+}
+
+.back-pic > img {
+  position: absolute;
+  width: 100%;
+  z-index: -10;
+}
+
+.nice-icons{
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+  
+}
+
+.nice-icons-left{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.nice-icons-left img{
+  width: 50px;
+  padding: 20px;
+}
+
+.nice-icons-right{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.nice-icons-right img{
+  width: 50px;
+  padding: 20px;
+  color: red;
+}
+.back-pic h1{
+  color: black;
+  text-align: center;
+  
+}
+.txt{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  
+}
+.txt h1{
+  color: white;
+}
+
+.nice-icons-button{
+  background:  #f0d266;
+  line-height: 42px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-weight: 500;
+  margin: auto;
+}
+
+.undergrad-container{
+  
+
+}
+
+.undergrad-sub-container{
+  display: flex;
+}
+.undergrad-sub-container-left{
+  flex:50%;
+  display: flex;
+  background-color: lemonchiffon;
+}
+
+.undergrad-sub-container-right{
+  flex:50%;
+  display: flex;
+  background-color: lightblue;
+}
+
+
+.undergrad-sub-container-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.undergrad-sub-container-content-left{
+flex:1;
+display: flex;
+}
+
+.undergrad-sub-container-content-right{
+flex: 1;
+}
