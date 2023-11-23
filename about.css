@@ -1,0 +1,53 @@
+.dcs-image{
+  width: 98%;
+  height: 500px;
+}
+
+.back-pic{
+  width: 98vw;
+  overflow: hidden;
+  margin-bottom: 250px;
+  border-bottom: none;
+
+  
+}
+.back-pic > img {
+  position: absolute;
+  width: 98%;
+  z-index: -10;
+  
+}
+.txt{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 40px;
+  margin-top: 100px;
+  border-bottom: none;
+}
+
+.container{
+  display: flex;
+  column-gap: 10px;
+  margin-top: 20px;
+  
+}
+
+.content-image{
+  flex: 20%;
+
+  border-bottom: none;
+}
+
+.content-text{
+  flex: 70%;
+
+  border-bottom: none;
+}
+.content-image img{
+  padding: 70px;
+width: 250px;
+}
+
+div{
+  border-bottom: 2px solid rgb(205, 204, 204);
+}

@@ -7,6 +7,7 @@
   background-color: aliceblue;
   display: flex;
   flex-direction: column;
+  box-shadow: 10px 10px 7px rgb(223, 232, 235);
   
 }
 .undergraduate{
@@ -14,12 +15,14 @@ flex: 1;
 background-color: lightcoral;
 display: flex;
 flex-direction: column;
+box-shadow: 10px 10px 7px rgb(223, 232, 235);
 }
 .masters{
 flex: 1;
 background-color: lightblue;
 display: flex;
 flex-direction: column;
+box-shadow: 10px 10px 7px rgb(223, 232, 235);
 
 }
 .phd{
@@ -27,6 +30,7 @@ flex-direction: column;
   background-color: blueviolet;
   display: flex;
   flex-direction: column;
+  box-shadow: 10px 10px 7px rgb(223, 232, 235);
 }
 
 .image{
@@ -41,6 +45,11 @@ flex-direction: column;
   width: 95%; 
   padding: 7px;
   
+}
+
+.image-courses:hover{
+  scale: 1.1;
+  transition: 0.15s;
 }
 .top{
   display: flex;
@@ -58,13 +67,16 @@ flex-direction: column;
 .short-courses-box{
   display: flex;
   column-gap: 10px;
-  margin-top: 50px;
   border-top: 2px solid rgb(159, 155, 180);
 }
 .short-courses-box-content{
   flex: 1;
   display: flex;
   flex-direction: column;
+  border-radius: 20px;
+background: #e0e0e0;
+box-shadow:  5px 5px 41px #f1f1f1,
+             -5px -5px 41px #ffffff;
 }
 .short-courses-box-content-img{
 flex: 1;
@@ -77,6 +89,7 @@ flex: 1;
   overflow: hidden;
   position: relative;
   filter: grayscale(40%);
+  margin-top: 50px;
 }
 
 .back-pic > img {
@@ -142,37 +155,14 @@ flex: 1;
   margin: auto;
 }
 
-.undergrad-container{
-  
-
+.undergrad-container h1{
+  font-size: 23px;
+  margin-top: 50px;
 }
-
-.undergrad-sub-container{
-  display: flex;
+.outline{
+  cursor: pointer;
+  font-size:20px ;
 }
-.undergrad-sub-container-left{
-  flex:50%;
-  display: flex;
-  background-color: lemonchiffon;
-}
-
-.undergrad-sub-container-right{
-  flex:50%;
-  display: flex;
-  background-color: lightblue;
-}
-
-
-.undergrad-sub-container-content{
-  display: flex;
-  flex-direction: row;
-}
-
-.undergrad-sub-container-content-left{
-flex:1;
-display: flex;
-}
-
-.undergrad-sub-container-content-right{
-flex: 1;
+.outline:hover{
+  color: lightcoral;
 }
