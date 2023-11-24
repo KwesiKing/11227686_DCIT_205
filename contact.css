@@ -1,0 +1,80 @@
+h1{
+  text-align: center;
+}
+.container{
+  display: flex;
+  column-gap: 15px;
+  margin-top: 0;
+}
+
+.left{
+  flex: 70%;
+  text-align: center;
+  
+}
+
+.left img{
+  width: 100%;
+  position: relative;
+}
+
+
+.h1:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 1); 
+}
+
+.right{
+  flex: 30%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  padding: 10px;
+}
+
+.right:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+
+#name , #email , #text-area{
+  font-size: 15px;
+  margin-bottom: 10px;
+  width: 300px;
+  
+}
+
+#submit{
+  background: blue;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  border: none;
+  border-radius: 3px;
+  height: 28px;
+  width: 70px;
+}
+
+#submit:hover{
+  background-color: white;
+  color: blue;
+  transition: 0.1s;
+}
+
+.file-input-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-file-label {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.hidden-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}

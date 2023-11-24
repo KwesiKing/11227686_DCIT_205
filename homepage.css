@@ -158,11 +158,14 @@ display: flex;
 }
 
 
-
+.h1{
+  text-align: center;
+}
 
 
 #dcs-video{
   min-width: 100%;
+  filter: grayscale(50%);
 }
 
 .text-on-video{
@@ -332,14 +335,16 @@ margin-right: -10px;
 }
 .events-container{
   display: flex;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 
 .events-left{
-  flex: 1;
+  flex: 25%;
 }
 
 .events-right{
-  flex: 1;
+  flex: 60%;
 }
 
 
