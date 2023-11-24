@@ -1,0 +1,28 @@
+
+.h1{
+  font-size: 30px;
+}
+.row{
+  display: flex;
+  column-gap: 20px;
+}
+
+
+.column{
+  flex: 33%;
+  background: #a7a8bc;
+  margin-bottom: 13px;
+  height: 400px;
+  box-shadow:  8px 8px 16px #bababa,
+               -8px -8px 16px #ffffff;
+}
+
+.column p,h3{
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.column img{
+  width: 350px;
+  padding: 15px;
+}
