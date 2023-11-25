@@ -1,0 +1,156 @@
+.spot{
+  display: flex;
+  margin-top: 20px;
+}
+
+.top-pic{
+  width: 100%;
+}
+
+
+.spot-top{
+  margin-left: 160px;
+  margin-right: 100px;
+}
+.left{
+  flex: 10%;
+  margin-left: 150px;
+}
+.right{
+  flex: 70%;
+  margin-right: 100px;
+}
+
+.right a{
+  color: maroon;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.right a:hover{
+  color: black;
+}
+
+.dash{
+  margin-left: 160px;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid gray;
+}
+.news{
+  margin-left: 160px;
+  margin-right: 100px;
+}
+.news-container{
+  display: flex;
+  column-gap: 20px;
+}
+
+.news-container-box{
+  flex: 30%;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.news-container-box a{
+  text-decoration: none;
+  color: maroon;
+  font-size: 16px;
+}
+.news-container-box a:hover{
+  color: black;
+}
+.news-container-box img{
+  height: 150px;
+  width: 100%;
+}
+
+.their{
+  margin-left: 160px;
+  margin-right: 100px; 
+}
+.meet{
+  margin-left: 160px;
+  margin-right: 100px;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.meet img{
+  width: 100%;
+}
+
+.ai{
+  margin-left: 160px;
+  margin-right: 100px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.a-programs{
+  margin-left: 160px;
+  margin-right: 100px;
+  display: flex;
+  column-gap: 30px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.a-programs-box{
+  flex: 40%;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+.a-programs-box a{
+  text-decoration: none;
+  color: maroon;
+}
+.a-programs-box a:hover{
+  color: black;
+}
+
+.a-programs-box img{
+  width: 100%;
+}
+
+.connect{
+  margin-left: 160px;
+  margin-right: 100px;
+}
+
+.connect-container{
+  display: flex;
+  margin-left: 160px;
+  margin-right: 100px;
+  column-gap: 30px;
+  text-align: center;
+}
+
+.connect-content{
+  flex: 40%;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.connect-content a{
+  text-decoration: none;
+  color: maroon;
+}
+
+.connect-content a:hover{
+  color: black;
+}
+.connect-content img{
+  width: 100%;
+}
+
+.l-pic{
+  margin-left: 160px;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+.l-pic img{
+  width: 100%;
+}
