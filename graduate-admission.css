@@ -1,0 +1,57 @@
+.container{
+  display: flex;
+  column-gap: 30px;
+  height: 300px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.content{
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.left{
+  flex: 40%;
+  padding: 70px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.left a {
+  color: royalblue;
+  text-decoration: none;
+}
+
+.left a:hover{
+  color: black;
+}
+
+.left, .right h2{
+  cursor: pointer;
+}
+
+.left h2:hover{
+  color: royalblue;
+}
+
+
+.right h2:hover{
+  color: royalblue;
+}
+
+
+
+
+.right{
+  flex: 40%;
+  padding: 70px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.right a {
+  color: royalblue;
+  text-decoration: none;
+}
+
+.right a:hover{
+  color: black;
+}
