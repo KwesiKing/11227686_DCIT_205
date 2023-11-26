@@ -4,7 +4,7 @@
 .top {
   height: 400px;
   width: 100%;
-  background-image: url(/images/balme.png);
+  background-image: url(balme.png);
   text-align: center;
   color: rgb(252, 210, 0);
   filter: grayscale(50%);

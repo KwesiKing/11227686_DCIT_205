@@ -1,3 +1,13 @@
+body{
+  margin-left: 160px;
+  margin-right: 100px;
+}
+img{
+  width: 100%;
+}
+*{
+  font-family: sans-serif;
+}
 .container{
   display: flex;
   column-gap: 30px;
@@ -6,14 +16,20 @@
   margin-top: 20px;
 }
 
+.eligibility{
+  border-bottom: solid 2px gray;
+  margin-bottom: 30px;
+}
+
 .content{
   margin-bottom: 20px;
   margin-top: 30px;
 }
 .left{
   flex: 40%;
-  padding: 70px;
+  padding: 40px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
 }
 
 .left a {
@@ -43,8 +59,9 @@
 
 .right{
   flex: 40%;
-  padding: 70px;
+  padding: 40px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
 }
 
 .right a {
@@ -54,4 +71,9 @@
 
 .right a:hover{
   color: black;
+}
+
+.phd{
+  border-top: solid 5px gray;
+  margin-top: 30px;
 }

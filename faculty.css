@@ -1,4 +1,6 @@
-
+*{
+  font-family: sans-serif;
+}
 .hod{
   display: flex;
   column-gap: 10px;

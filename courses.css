@@ -1,3 +1,6 @@
+*{
+  font-family: sans-serif;
+}
 .course-container{
   display: flex;
   column-gap:  15px; ;
