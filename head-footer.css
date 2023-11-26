@@ -1,13 +1,3 @@
-*{
-  font-family: sans-serif;
-}
-body{
-  margin: 0;
-}
-
-div{
-  font-size: 20px;
-}
 .dropbtn:hover{
   font-size: 34px;
   transition: 0.5s;
@@ -156,87 +146,6 @@ display: flex;
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-
-.h1{
-  text-align: center;
-}
-
-
-#dcs-video{
-  min-width: 100%;
-  filter: grayscale(50%);
-}
-
-.text-on-video{
-  position: relative;
-  align-self: center;
-  width: 100%;
-  padding: 50px;
-}
-
-
-
-.start-text{
-display: flex;
-}
-
-.start-pic{
-width: 200px;
-
-}
-.daniel{
- width: 50%;
-object-fit: cover;
-padding: 20px;
-margin-top: -10px;
-margin-right: -10px;
-}
-
-.start-testimonal{
-  flex: 1;
-  margin-left: -40px;
-  margin-top: 10px;
-  font-size: 23px;
-}
-
-.link-testimonal{
-  color: maroon;
-  cursor: pointer;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-.link-testimonal:hover{
-  color: black;
-}
-
-.border{
-  border-bottom: 2px solid rgb(155, 154, 154);
-}
-
-.home-pics{
-  width: 93%; 
-  margin-top: 10px; 
-  margin-bottom: 40px;
-  transition: transform .2s;
-  object-fit:contain ;
-  padding: 35px;
-  margin-left: -20px;
-}
-
-.home-pics:hover{
-  transform: scale(1.1);
-}
-
-.boxshadow{
-  width: 99%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-
-
 
 .footrow1{
   background-color:#1f2833;
