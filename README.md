@@ -139,7 +139,7 @@ To get started with Department of Coputer Science's website, follow these steps:
 
 ## Project Learnings
 
-Throughout the development of [Website Name], I have gained valuable insights and skills, including:
+Throughout the development of website of Department of Computer Science of the University of Ghana, I have gained valuable insights and skills, including:
 
 - **HTML:** Developed a structured and semantic layout for the website, ensuring accessibility and readability.
 
@@ -158,7 +158,7 @@ I would like to express my gratitude to Dr. Sorli and Daquiver
 ## Conclusion
 
 Thank you for exploring Department of Computer Science's website. If you have any questions or feedback, feel free to reach out. 
-my email: info.me.albert@gmail.com
-my phone: +233 20 192 9434
+- My email: info.me.albert@gmail.com
+- My phone: +233 20 192 9434
 
 
